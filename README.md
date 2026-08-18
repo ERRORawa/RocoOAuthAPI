@@ -10,7 +10,7 @@
 
 1. 点击下方按钮一键部署：
 
-   [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ERRORawa/rocoOAuthAPI)
+   [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ERRORawa/RocoOAuthAPI)
 
 2. 在 Cloudflare 控制台的 Worker **设置 → 变量** 中配置以下变量：
 
