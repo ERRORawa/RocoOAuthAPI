@@ -1,0 +1,8 @@
+name = "rocoAPI"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+id = "YOUR_GITEE_CLIENT_ID"
+secret = "YOUR_GITEE_CLIENT_SECRET"
+redirect = "YOUR_REDIRECT_URI"

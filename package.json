@@ -1,0 +1,14 @@
+{
+  "name": "rocoAPI",
+  "version": "1.0.0",
+  "private": true,
+  "description": "洛克图鉴 OAuth API",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

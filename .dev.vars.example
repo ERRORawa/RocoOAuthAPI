@@ -1,0 +1,3 @@
+id = "YOUR_GITEE_CLIENT_ID"
+secret = "YOUR_GITEE_CLIENT_SECRET"
+redirect = "YOUR_REDIRECT_URI"
