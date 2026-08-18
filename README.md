@@ -1,6 +1,6 @@
 # 洛克图鉴 OAuth API
 
-用于洛克图鉴的 Gitee OAuth 登录 Cloudflare Worker。
+用于[洛克图鉴](https://github.com/ERRORawa/RocoHandbook)的 Gitee OAuth 登录 Cloudflare Worker。
 
 ## 部署
 
