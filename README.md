@@ -38,8 +38,6 @@
    | 设置静态 | Access-Control-Allow-Methods | GET,HEAD,POST,OPTIONS,DELETE |
    | 设置静态 | Access-Control-Allow-Origin | `这里设置为你的前端链接` |
 
-![1](1.png)
-
 ## 工作原理
 
 - `GET /roco?code=<code>` — 用 Gitee 授权码换取 access token，并设置 `accessToken` Cookie。
