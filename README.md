@@ -18,7 +18,11 @@
    | --- | --- |
    | `id` | 在 Gitee 创建的第三方应用中给出的 `client_id` |
    | `secret` | 在 Gitee 创建的第三方应用中给出的 `client_secret` |
-   | `redirect` | 当前部署的 Worker 的地址 |
+   | `redirect` | 在 Gitee 创建的第三方应用中填写的 `client_secret`，通常为当前worker的链接 |
+
+## 后续工作
+
+1. 修改前端的`window.open("https://gitee.com/oauth/…`，将其中的client_id和redirect_uri替换为你的第三方应用中的内容，其中redirect_uri需要编码为URIComponent
 
 ## 工作原理
 
