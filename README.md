@@ -24,6 +24,22 @@
 
 1. 修改前端的`window.open("https://gitee.com/oauth/…`，将其中的client_id和redirect_uri替换为你的第三方应用中的内容，其中redirect_uri需要编码为URIComponent
 
+2. 为你的域名设置响应头转换规则，传入请求匹配设置为
+
+   | 字段 | 运算符 | 值 |
+   | --- | --- | ---
+   | 主机名 | 包含 | api |
+
+响应头内容为
+
+   | | 标头名称 | 值 |
+   | --- | --- | --- |
+   | 设置静态 | Access-Control-Allow-Credentials | true |
+   | 设置静态 | Access-Control-Allow-Methods | GET,HEAD,POST,OPTIONS,DELETE |
+   | 设置静态 | Access-Control-Allow-Origin | `这里设置为你的前端链接` |
+
+![1](1.png)
+
 ## 工作原理
 
 - `GET /roco?code=<code>` — 用 Gitee 授权码换取 access token，并设置 `accessToken` Cookie。
